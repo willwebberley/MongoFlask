@@ -42,8 +42,8 @@ Install Flask and MongoAlchemy (which is useful for handling the database). Use 
 
 Start the database server as a user. First make a directory to store the database and then run it:
 ```
-% mkdir data/db
-% mongodb --dbpath data/db
+$ mkdir data/db
+$ mongodb --dbpath data/db
 ```
 
 
@@ -51,7 +51,7 @@ Start the database server as a user. First make a directory to store the databas
 === 
 
 Start your application. Either use the example in this repository, or create your own.
-Once the development server is running your application, visit [127.0.0.1:5000](http:/127.0.0.1:5000) to see it working.
+Once the development server is running your application, visit [localhost:5000](http://localhost:5000) to see it working.
 
 
 **FILE AND DIRECTORY INFO:**
