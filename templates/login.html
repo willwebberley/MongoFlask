@@ -1,0 +1,20 @@
+<!doctype html>
+<title>Login</title>
+<h2>Login below</h2>
+{% if error %}
+  <p style="color:red;">{{ error }}</p>
+{% endif %}
+
+<form method="post" action="/login/" name="input">
+    Username: <input type="text" name="username" /><br />
+    Password: <input type="password" name="password" /><br /><br />
+    <input type="submit" value="Login" />
+</form>
+
+<br />
+<hr />
+<h2>Upload file example</h2>
+<form method="post" action="/upload/" name="upload" enctype="multipart/form-data">
+    <input type="file" name="the_file" />
+    <input type="submit" value="Upload" />
+</form>
