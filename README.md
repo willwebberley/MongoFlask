@@ -2,7 +2,7 @@ MongoFlask
 =================
 
 Companion code to this 
-[blog post](http://www.willwebberley.net/downloads/scriptslide).
+[blog post](http://www.willwebberley.net/#post/2013-02-21).
 
 Provides a simple example of using the Flask Python web framework using MongoDB.
 
