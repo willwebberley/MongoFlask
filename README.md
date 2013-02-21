@@ -6,14 +6,12 @@ Companion code for this
 
 Provides a simple example of using the Flask Python web framework using MongoDB.
 
-Setting up:
-
 1.
 ===
 
-**Requires**:
-* Working installation of [Python](http://www.python.org/)
-* [MongoDB](http://www.mongodb.org/)
+**This step covers**:
+* Getting a working installation of [Python](http://www.python.org/)
+* Installing [MongoDB](http://www.mongodb.org/)
 
 Python and MongoDB can be downloaded from their respecitve websites, or installed through your OS distribution's package manager (if this is supported).
 
@@ -54,7 +52,8 @@ Start your application. Either use the example in this repository, or create you
 Once the development server is running your application, visit [localhost:5000](http://localhost:5000) to see it working.
 
 
-**FILE AND DIRECTORY INFO:**
+FILE AND DIRECTORY INFO:
+==========================
 
 * *application.py*
     * Main application code
