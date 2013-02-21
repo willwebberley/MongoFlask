@@ -1,8 +1,8 @@
 MongoFlask
 =================
 
-Companion code to this 
-[blog post](http://www.willwebberley.net/#post/2013-02-21).
+Companion code for this 
+[blog post](http://www.willwebberley.net/#post/2013-02-21), though this walkthrough is more comprehensive.
 
 Provides a simple example of using the Flask Python web framework using MongoDB.
 
